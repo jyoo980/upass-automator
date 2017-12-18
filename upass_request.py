@@ -12,16 +12,16 @@ ubc_username = input("Please enter your ubc id: ")
 ubc_password = getpass.getpass("Please enter your ubc password: ")
 
 xpaths_upass = { 'schoolSelect' : "//*[@class='hasCustomSelect']", 
-			'ubcSelect' : "//*[contains(@value, 'ubc')]",
-			'ok' : "//*[@id='goButton']",
-			'chkBox' : "//*[@id='chk_1']",
-			'requestBtn' : "//*[@id='requestButton']"
+				 'ubcSelect' : "//*[contains(@value, 'ubc')]",
+				 'ok' : "//*[@id='goButton']",
+				 'chkBox' : "//*[@id='chk_1']",
+				 'requestBtn' : "//*[@id='requestButton']"
 }
 
 xpaths_ubc = { 'username_box' : "//*[@id='j_username']",
-				'password_box' : "//*[@id='password']",
-				'login' : "//*[@value='Continue']"
-			 }
+			   'password_box' : "//*[@id='password']",
+			   'login' : "//*[@value='Continue']"
+}
 
 driver = webdriver.Chrome()
 driver.get(target_url)
