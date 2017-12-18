@@ -49,4 +49,12 @@ actions.move_to_element(checkbox).perform()
 
 checkbox.click()
 driver.find_element_by_xpath(xpaths_upass['requestBtn']).click()
+
+try:
+	driver.find_element_by_xpath(xpaths_upass['chkBox'])
+	print("UPASS Request failed, please verify manually.")
+except NoSuchElementException:
+	print("UPASS Request successful.")
+
+
 sys.exit()
