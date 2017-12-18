@@ -1,15 +1,16 @@
 # upass-automator
 
-I wrote this script because I got tired of persuading the bus driver that I am a university student every time I forgot to renew my UPASS. Here's what you need:
+I wrote this script because I got tired of persuading the bus driver that I'm a university student every time I forgot to renew my U-PASS. Here's what you need:
 
 ## Make sure you have the dependencies
 1. Download Selenium: `sudo pip install -U selenium`
-2. Download the latest chromedriver and put it in your `PATH`. For macOS, `usr/local/bin` is where you want to put it
+2. Download Chromedriver and put it in your `PATH`. Click [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) to download the latest version. To move Chromedriver to `PATH` on macOS, run `cp <path/to/chromedriver> /usr/local/bin`. 
 
 ## To run upass-automator
 1. Run `python upass-request.py`
-2. Enter your CWL ID and Password when prompted. <strong>Note:</strong> I cannot be responsible for any security vulnerability this script exposes that information to, I initially wrote this as a personal side project. 
-3. Never get the stink-eye from the bus driver again!
+2. Enter your CWL credentials when prompted. <strong>Please note:</strong> I cannot be responsible for any security vulnerabilities that may occur when running this script, I initially wrote it for personal use. By your use of this script, you acknowledge the facts above.
+3. Watch WebDriver execute the script!
+4. Never get the stink-eye from the bus driver again.
 
 ## Future plans
 
