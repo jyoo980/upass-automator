@@ -4,7 +4,7 @@ I wrote this script because I got tired of persuading the bus drive that I am a 
 
 ## Make sure you have the dependencies
 1. Download Selenium: `sudo pip install -U selenium`
-2. Download the latest chromedriver and put it in your `PATH`, for macOS, `usr/local/bin` is where you want to put it
+2. Download the latest chromedriver and put it in your `PATH`. For macOS, `usr/local/bin` is where you want to put it
 
 ## To run upass-automator
 1. Run `python upass-request.py`
