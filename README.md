@@ -1,6 +1,6 @@
 # upass-automator
 
-I wrote this script because I got tired of persuading the bus drive that I am a university student every time I forgot to renew my UPASS. Here's what you need:
+I wrote this script because I got tired of persuading the bus driver that I am a university student every time I forgot to renew my UPASS. Here's what you need:
 
 ## Make sure you have the dependencies
 1. Download Selenium: `sudo pip install -U selenium`
