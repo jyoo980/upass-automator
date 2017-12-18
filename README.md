@@ -15,6 +15,6 @@ I wrote this script because I got tired of persuading the bus driver that I am a
 
 This is a first pass at attempting to automate the UPASS renewal process. Of course, one still has to remember to run the script once a month. In the future, as a user I want to:
 
-*Set the script up such that it runs automatically on the 16th of each month.
+* Set the script up such that it runs automatically on the 16th of each month.
 
 * Do some serious research on the security vulnerabilities that may be present with the current iteration. 
