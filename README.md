@@ -8,5 +8,5 @@ I wrote this script because I got tired of persuading the bus drive that I am a 
 
 ## To run upass-automator
 1. Run `python upass-request.py`
-2. Enter your CWL ID and Password when prompted. <strong>Note</strong>, I cannot be responsible for any security vulnerability my exposes that information to, I initially wrote this as a personal side project. 
+2. Enter your CWL ID and Password when prompted. <strong>Note:</strong> I cannot be responsible for any security vulnerability my exposes that information to, I initially wrote this as a personal side project. 
 3. Never get the stink-eye from the bus driver again! 
