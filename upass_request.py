@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import getpass
+import sys
 
 target_url = "https://upassbc.translink.ca/"
 
@@ -47,4 +48,5 @@ actions = ActionChains(driver)
 actions.move_to_element(checkbox).perform()
 
 checkbox.click()
-driver.find_element_by_xpath(xpaths_upass['requestBtn']).click
+driver.find_element_by_xpath(xpaths_upass['requestBtn']).click()
+sys.exit()
