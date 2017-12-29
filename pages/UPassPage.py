@@ -15,11 +15,3 @@ class UPassSelectPage(BasePage):
         self.school_select.select_by_visible_text(school_name)
         self.confirm_button.click()
         return UBCLoginPage()
-
-    
-
-
-
-
-
-
