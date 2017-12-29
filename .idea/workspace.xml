@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecd105df-1fdf-4b96-8f73-aa35d1abf616" name="Default" comment="" />
+    <list default="true" id="ecd105df-1fdf-4b96-8f73-aa35d1abf616" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/UPassPage.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/UPassSelectPage.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +27,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UPassSelectPage.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/UPassSelectPage.py">
+      <file leaf-file-name="UPassPage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/UPassPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="342">
+              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,6 +56,7 @@
       <list>
         <option value="$PROJECT_DIR$/pages/UBCLoginPage.py" />
         <option value="$PROJECT_DIR$/pages/UPassSelectPage.py" />
+        <option value="$PROJECT_DIR$/pages/UPassPage.py" />
       </list>
     </option>
   </component>
@@ -177,11 +184,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/UPassSelectPage.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/webium/controls/select.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="-285">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/UPassPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
