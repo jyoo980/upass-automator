@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -14,7 +15,6 @@ XPATH_UPASS = page_elements.XPATH_UPASS
 def setup_webdriver():
     driver = webdriver.Chrome()
     driver.get(target_url)
-    driver.maximize_window()
     return driver
 
 def ubc_login(driver, username, password):
@@ -29,6 +29,9 @@ def ubc_login(driver, username, password):
 def select_ubc_upass(driver):
     driver.find_element_by_xpath(XPATH_UPASS["school_select"]).click()
     driver.find_element_by_xpath(XPATH_UPASS["ubc"]).click()
+    element = driver.find_element_by_id("//*[@id='goButton']")
+    actions = ActionChains(driver)
+    actions.move_to_element(element).perform()
     driver.find_element_by_xpath(XPATH_UPASS["ok"]).click()
 
 def request_ubc_upass(driver):
